@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
      res.send(`Hello Node Api !!!`);
 });
 
+app.get('/blog', (req, res) => {
+     res.send(`Blog post it is!!!`);
+});
+
 // port
 app.listen(3001, ()=>{
      console.log(`Node Api started!`);
