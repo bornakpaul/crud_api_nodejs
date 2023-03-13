@@ -11,6 +11,6 @@ app.get('/blog', (req, res) => {
 });
 
 // port
-app.listen(3001, ()=>{
-     console.log(`Node Api started!`);
+app.listen(3000, ()=>{
+     console.log(`>>> Node Api started succesfully!!! <<<`);
 });
